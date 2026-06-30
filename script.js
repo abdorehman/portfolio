@@ -6,14 +6,15 @@ setInterval(() => {
 
 /* neofetch animation */
 const neofetchLines = [
-  { label: "r00tpunk@kali ~", value: "" },
+  { label: "iskra@kali ~", value: "" },
   { label: "-----------------------------", value: "" },
   { label: "OS      :", value: "Kali Linux" },
-  { label: "Shell   :", value: "zsh" },
-  { label: "Skills  :", value: "SQLi, Web Pentesting, Linux/Bash, Python, JS/HTML/CSS" },
-  { label: "Tools   :", value: "Nmap, Burp Suite, Metasploit, Wireshark, Hydra" },
-  { label: "Labs    :", value: "HTB / VulnHub / SQLi Labs" },
-  { label: "Status  :", value: "Grinding & Learning" }
+  { label: "Role    :", value: "Cybersecurity & CS Student" },
+  { label: "Focus   :", value: "Bug Hunting, Web Security, CTFs" },
+  { label: "Stack   :", value: "Python, Bash, JS, Linux" },
+  { label: "Tools   :", value: "Burp, Nmap, ffuf, custom scripts" },
+  { label: "Labs    :", value: "HTB / PortSwigger / VulnLab / CTFs / WEB Kids 2.0" },
+  { label: "Status  :", value: "Building • Learning • Breaking" }
 ];
 
 const container = document.getElementById("neofetchText");
@@ -69,29 +70,28 @@ function type(el, lines, speed = 30) {
 }
 
 type(document.getElementById("skillsBox"), [
-"$ SQL Injection",
-"$ Web App Pentesting (OWASP Top 10)",
-"$ Auth attacks & logic flaws",
-"$ Recon & enumeration",
-"$ Linux privilege escalation",
-"$ Networking (TCP/IP, DNS, HTTP)",
-"$ Packet analysis (PCAP)",
-"$ CTF problem solving",
-"$ Python & Bash automation",
-"$ Technical write-ups (Markdown)"
+"$ Web Application Security",
+"$ Bug Hunting & Vulnerability Research",
+"$ Recon & Attack Surface Mapping",
+"$ Authentication & Authorization Testing",
+"$ API Security Testing",
+"$ CTF Challenge Solving",
+"$ Linux & Bash Automation",
+"$ Python Tool Development",
+"$ Custom Security Workflows",
+"$ Technical Writeups & Research"
 ]);
 
 type(document.getElementById("toolsBox"), [
 "$ which tools",
+"/usr/bin/burp-suite",
 "/usr/bin/nmap",
-"/usr/bin/burp",
-"/usr/bin/sqlmap",
 "/usr/bin/ffuf",
+"/usr/bin/sqlmap",
 "/usr/bin/gobuster",
+"/usr/bin/httpx",
+"/usr/bin/subfinder",
+"/usr/bin/amass",
+"/usr/bin/katana",
 "/usr/bin/wireshark",
-"/usr/bin/metasploit",
-"/usr/bin/linpeas",
-"/usr/bin/hydra",
-"/usr/bin/hashcat",
-"/usr/bin/python"
 ]);
